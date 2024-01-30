@@ -24,15 +24,46 @@
 
 
 // trim()
-let reg = "mahin ";
-let login = "Mahin   ";
-if(reg.trim().toLowerCase() === login.trim().toLowerCase()){
-    console.log("Login")
-}else{
-    console.log("wrong")
+// let reg = "mahin ";
+// let login = "Mahin   ";
+// if(reg.trim().toLowerCase() === login.trim().toLowerCase()){
+//     console.log("Login")
+// }else{
+//     console.log("wrong")
+// }
+
+
+
+
+// // string use slice
+// let str = "i am a mahin howlader . i am in class BA .";
+// let str1 = "How old are you?"
+// let str2 = str.slice(2, 20)
+// console.log(str2)
+// let splitFun = str.split(" ").reverse().join(" ");
+// console.log(str.includes("mahin"));
+// console.log(splitFun);
+// console.log(str.concat(str1))
+
+
+
+
+// loop reverse
+let str = "i am a mahin howlader . i am in class BA .";
+
+// of loop
+// let rev = "";
+// for(let sen of str){
+//     // console.log(sen)
+//     rev = sen + rev;
+// }
+// console.log(rev.split(" "))
+
+// for loop
+let rev = "";
+for(let i=0; i<= str.length; i++){
+    let revSen = str[i];
+    rev = revSen + rev;
+
 }
-
-
-
-
-// string use slice
+console.log(rev)
