@@ -77,11 +77,13 @@ city: 'Example City',
 isStudent: true
 };
 
+
 for(let key in myObject){
-    let keys = myObject[key]
-    let type = typeof keys
-    // console.log(type)
-    console.log("key : " + key + " | " + "type :" + type)
+    // let keys = myObject[key]
+    console.log(myObject[key])
+    // let type = typeof keys
+    // // console.log(type)
+    // console.log("key : " + key + " | " + "type :" + type)
     
 }
 
@@ -97,3 +99,10 @@ for(let key in myObject){
 // key: age | type:  number
 // key: city | type:  string
 // key: isStudent | type:  boolean
+
+let x= "";
+if(!x.length){
+    console.log("Hey")
+}else{
+    console.log("hi")
+}

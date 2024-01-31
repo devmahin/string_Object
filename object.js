@@ -35,5 +35,5 @@ const collage = {
 
 
 
-console.log(Object.keys(collage))
-console.log(Object.values(collage))
+// console.log(Object.keys(collage))
+// console.log(Object.values(collage))
