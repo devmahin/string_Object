@@ -4,21 +4,21 @@ let str = "Praava Health is a network of Family Health Centers where patients co
 // let match2 = str.match(/A/g);
 // console.log(match.length)
 // console.log(match2.length)
-let Count = null;
-let Count2 = null;
-for(let i = 0; i<str.length; i++){
-    if(str[i] === "a"){
-        // console.log("")
-        Count++;
-    }
-    if(str[i] === "A"){
-        // console.log("")
-        Count2++;
-    }
+// let Count = null;
+// let Count2 = null;
+// for(let i = 0; i<str.length; i++){
+//     if(str[i] === "a"){
+//         // console.log("")
+//         Count++;
+//     }
+//     if(str[i] === "A"){
+//         // console.log("")
+//         Count2++;
+//     }
 
-}
-console.log(Count)
-console.log(Count2)
+// }
+// console.log(Count)
+// console.log(Count2)
 
 
 
@@ -41,8 +41,8 @@ console.log(Count2)
 
 
 // // // Task-3:
-// // // Check whether a string contains all the vowels a, e, i, o, u
-// let a = "conut how many times a string";
+// // Check whether a string contains all the vowels a, e, i, o, u
+let a = "cont u how many times a string";
 // let vowels = "aeiou";
 // let checked = true;
 // for (let i = 0; i < vowels.length; i++) {
@@ -58,7 +58,22 @@ console.log(Count2)
 //     console.log("String is missing one or more vowels");
 // }
 
+let vowels = "aeiou";
+let checked = true;
 
+for(let i =0; i<vowels.length; i++){
+    if(a.indexOf(vowels[i]) === -1){
+        checked = false;
+        break;
+    }else{
+        checked = true;
+    }
+}
+if(checked){
+    console.log("aeiou pawa gece")
+}else{
+    console.log("powa jay nai")
+}
 
 
 
